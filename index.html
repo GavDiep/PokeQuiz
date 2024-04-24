@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html id="html">
+  <head>
+    <title>Pokemon Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1 class="center">"Whos that Pokemon"</h1>
+    <p class="center">
+      Answer in the text boxes and check your answers by pressing the Pokeball button.
+    </p>
+    <hr />
+
+    <!-- Answer Statments -->
+    <span class="center">
+    <p id="answers"></p>
+    <p id="output"><span id="textOutput"></span></p>
+
+    <!-- Question 1 -->
+    <h2>Question 1</h2>
+    <p>Who's that pokemon?</p>
+    <p><img src="img/squirtle.png" width="200px" alt="Squirtle" /></p>
+    <p>
+      <input id="qst1" type="text" placeholder="Type your answer here" />
+      <p id="correct1"></p>
+    </p>
+
+    <!-- Question 2 -->    
+    <h2>Question 2</h2>
+    <p>Who's that pokemon?</p>
+    <p><img src="img/captain_pikachu.jpeg" width="200px" alt="Pikachu" /></p>
+    <p>
+      <input id="qst2" type="text" placeholder="Type your answer here" />
+      <p id="correct2"></p>
+    </p>
+
+    <!-- Question 3 -->     
+    <h2>Question 3</h2>
+    <p>Who's that pokemon?</p>
+    <p><img src="img/diglett.png" width="200px" alt="Diglett" /></p>
+    <p>
+      <input id="qst3" type="text" placeholder="Type your answer here" />
+      <p id="correct3"></p>
+    </p>
+
+    <!-- Question 4 -->     
+    <h2>Question 4</h2>
+    <p>Who's that pokemon?</p>
+    <p><img src="img/giratina.png" width="200px" alt="Giratina" /></p>
+    <p>
+      <input id="qst4" type="text" placeholder="Type your answer here" />
+      <p id="correct4"></p>
+    </p>
+
+    <!-- Question 5 -->       
+    <h2>Question 5</h2>
+    <p>Who's that pokemon?</p>
+    <p><img src="img/eevee.png" width="200px" alt="Eevee" /></p>
+    <p>
+      <input id="qst5" type="text" placeholder="Type your answer here" />
+      <p id="correct5"></p>
+    </p>
+
+    <!-- Question 6 -->   
+    <h2>Question 6</h2>
+    <p>Who's that pokemon?</p>
+    <p><img src="img/sealh.png" width="200px" alt="Spheal" /></p>
+    <p>
+      <input id="qst6" type="text" placeholder="Type your answer here" />
+      <p id="correct6"></p>
+
+    <!-- Answer Button  -->
+    <p><button id="btnEl"><img id="pokeballImg" src="img/pokeballed.jfif" width="50px" alt="Pokeball"></button></p>
+  </span>
+    <hr/>
+
+    <p class="center">Score is show at the top of the quiz.</p>
+    <p class="center">Go to <a id="link" href="https://bulbapedia.bulbagarden.net/wiki/Main_Page">Bulbapedia</a> to learn more about the pokemon in this quiz.</p>
+
+    <p class="center"><button onclick="topFunction()" id="myBtn" title="Go to top">Return to top</button></p>
+    <p class="center"><button id="backgroundChange">Change Background</button></p>
+  </body>
+</html>

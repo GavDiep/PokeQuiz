@@ -1,0 +1,40 @@
+html {
+  background: url(img/eeveebackground.jpg) fixed center no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+body {
+  width: 600px;
+  margin: 25px auto;
+  padding: 30px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgba(71, 68, 68, 0.865);
+}
+
+.center {
+  text-align: center;
+}
+
+#link {
+  color: aqua;
+  text-decoration: none;
+}
+
+#link:hover {
+  text-decoration: none;
+  color: red;
+}
+
+#backgroundChange {
+  width: 100px;
+  height: 50;
+  background-color: aquamarine;
+}
+
+#pokeballImg {
+  border: 2px solid black;
+  border-radius: 30px;
+}
